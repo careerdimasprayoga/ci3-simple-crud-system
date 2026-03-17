@@ -45,7 +45,7 @@ class Auth extends CI_Controller {
     ];
 
     $this->session->set_userdata($data);
-    return redirect('dashboard');
+    return redirect('dashboards');
   }
 
 
